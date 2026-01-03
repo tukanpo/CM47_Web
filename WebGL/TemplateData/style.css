@@ -17,6 +17,18 @@ html, body {
   outline: none;
 }
 
+#unity-footer,
+#unity-build-title,
+#unity-warning {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.build-version {
+  opacity: 0.6;
+  font-size: 12px;
+}
+
+
 #unity-container { position: absolute }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { position: fixed; width: 100%; height: 100% }
